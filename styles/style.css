@@ -189,6 +189,8 @@ h6 {
   font-size: 18px;
   font-weight: 500;
   width: 100%;
+  margin-top: 0;
+  margin-bottom: 20;
 }
 
 /* начало блока Фейнмана */
