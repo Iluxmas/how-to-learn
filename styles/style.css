@@ -280,7 +280,7 @@
 .footer {
   background-color: #1f1f1f;
   padding: 60px 0 40px 0;
-  color: white;
+  color: #fff;
 }
 
 .footer__columns {
@@ -328,7 +328,7 @@
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 .footer__column_content_copyright {
