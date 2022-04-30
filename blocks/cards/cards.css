@@ -1,7 +1,12 @@
 .cards {
   width: 920px;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
