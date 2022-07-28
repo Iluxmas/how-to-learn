@@ -4,18 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Научиться учиться</title>
+  <title>Научиться
+    учиться</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" type="image/x-icon" href="./images/icons8-student-registration-48.png">
 </head>
 
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"></div>
+      <div class="logo logo_place_header-ru">
+      </div>
+      <button id="lang-ru" class="header__lang-button button_selected"><img src="./images/rus_flag.png" alt="lang-RU"
+          class="header__button-flag"></button>
+      <button id="lang-en" class="header__lang-button"><img src="./images/uk_flag.png" alt="lang-EN"
+          class="header__button-flag"></button>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни?<a href="#" class="header__link"> Узнать &rarr;</a></p>
-      <img class="header__main-illustration" src="./images/header-image.png" alt="Картинка заголовка. Опять двойка.">
+        жизни?<a href="#" class="header__link"> Узнать &rarr;</a>
+      </p><img class="header__main-illustration" src="./images/header-image.png"
+        alt="Картинка заголовка. Опять двойка.">
       <div class="header__square-pic rotation"></div>
     </header>
 
@@ -103,7 +111,7 @@
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть.</p>
       <img src="./images/feynman.png" alt="Фейнман" class="feynman__image">
-      <a href="" class="feynman__link" target="_blank">Подробнее →</a>
+      <a href="" class="feynman__link" target="_blank">Подробнее &rarr;</a>
     </section>
 
     <section class="digits">
@@ -208,8 +216,15 @@
           <p class="table__text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
         </div>
         <div class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">10</h3>
-          <p class="table__text">Уделяйте внимание количеству и скорости.</p>
+          <h3 class="table__heading">
+            10</h3>
+          <p class="table__text">
+            Уделяйте
+            внимание
+            количеству
+            и
+            скорости.
+          </p>
         </div>
       </div>
       <div class="kaufman__triangle rotation"></div>
@@ -233,33 +248,45 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer"></div>
+          <div class="logo logo_place_footer-ru">
+          </div>
           <p class="footer__author">&copy; Ilya Sulkhanov</p>
         </div>
         <div class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
           <nav>
             <ul class="footer__column-links">
-              <li><a href="#" class="footer__column-link">Главная</a></li>
-              <li><a href="#" class="footer__column-link">Концепция</a></li>
-              <li><a href="#" class="footer__column-link">Наставники</a></li>
+              <li><a href="//practicum.yandex.ru" class="footer__column-link">Главная</a></li>
+              <li><a href="//yandex.ru/support/praktikum/mentors.html" class="footer__column-link">Концепция</a></li>
+              <li><a href="//yandex.ru/support/praktikum/" class="footer__column-link">Наставники</a></li>
             </ul>
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
-            <li><a href="#" class="footer__column-link" target="_blank"><img class="footer__social-icon"
-                  src="./images/facebook_color_white.svg" alt="Фейсбук иконка">Facebook</a></li>
-            <li><a href="#" class="footer__column-link" target="_blank"><img class="footer__social-icon"
-                  src="./images/vk_color_white.svg" alt="ВКонтакте иконка">ВКонтакте</a></li>
-            <li><a href="#" class="footer__column-link" target="_blank"><img class="footer__social-icon"
-                  src="./images/instagram_color_white.svg" alt="Инстаграм иконка">Instagram</a></li>
+            <li><a href="https://www.facebook.com/yandex.practicum/" class="footer__column-link" target="_blank"
+                title="* Запрещена на территории РФ, как и много других хороших компаний и людей"><img
+                  class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Фейсбук иконка">Фейсбук</a>
+            </li>
+            <li><a href="https://vk.com/yandex.praktikum" class="footer__column-link" target="_blank"
+                title="* Еще не запрещена на территории РФ"><img class="footer__social-icon"
+                  src="./images/vk_color_white.svg" alt="ВКонтакте иконка">ВКонтакте</a>
+            </li>
+            <li><a href="https://www.instagram.com/yndx.practicum/" class="footer__column-link" target="_blank"
+                title="* Запрещена на территории РФ, как и много других хороших компаний и людей"><img
+                  class="footer__social-icon" src="./images/instagram_color_white.svg"
+                  alt="Инстаграм иконка">Инстаграм</a>
+            </li>
           </ul>
         </div>
       </div>
     </footer>
   </div>
+  <script type="module" src="./script/script.js">
+  </script>
+  <script type="module" src="./script/lang.js">
+  </script>
 </body>
 
 </html>

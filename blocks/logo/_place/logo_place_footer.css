@@ -1,3 +1,7 @@
-.logo_place_footer {
+.logo_place_footer-ru {
   background-image: url(../../../images/logo_place_footer.svg);
+}
+
+.logo_place_footer-en {
+  background: no-repeat left/contain url(../../../images/logo_place_footer_EN.png);
 }

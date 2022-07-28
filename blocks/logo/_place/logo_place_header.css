@@ -1,6 +1,13 @@
-.logo_place_header {
+.logo_place_header-ru {
   position: absolute;
-  top: 30px;
+  top: 70px;
   left: 64px;
   background-image: url(../../../images/logo_place_header.svg);
+}
+
+.logo_place_header-en {
+  position: absolute;
+  top: 70px;
+  left: 64px;
+  background: no-repeat left/contain url(../../../images/logo_place_header_EN.png);
 }

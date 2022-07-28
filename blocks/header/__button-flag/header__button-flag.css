@@ -1,0 +1,11 @@
+.header__button-flag {
+  width: 32px;
+  height: 22px;
+  box-sizing: padding-box;
+  transition: 0.1s;
+  border-radius: 3px;
+}
+
+.header__button-flag:hover {
+  outline: 1px solid #999;
+}
