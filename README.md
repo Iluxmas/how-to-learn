@@ -6,5 +6,5 @@
 
 **GitHub**
 
-[Link to GitHub Pages](https://iluxmas.github.io/how-to-learn/index.html)
+[Link to GitHub Pages](https://iluxmas.github.io/how-to-learn/index.html) (use CTRL+click or ⌘+click to open in new tab)
 
