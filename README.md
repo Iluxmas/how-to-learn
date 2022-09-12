@@ -1,7 +1,10 @@
-# Project: How to learn
+# **Project: How to learn**
 
-Project theme was Education Techniques. To create this page I implemented some new knowledges about markup language and css flex. Files organization was made according to BEM nested methodology.
+**Tech stack:** HTML, CSS, JavaScript
 
-Language selection flags and translation via JS were added.
+**Desription:** Project theme was Education Techniques. To create this page I implemented some new knowledges about markup language and css flex. Files organization was made according to BEM nested methodology. Language switch was made with JS.
 
-[Сcылка на GitHub Pages](https://iluxmas.github.io/how-to-learn/index.html)
+**GitHub**
+
+[Link to GitHub Pages](https://iluxmas.github.io/how-to-learn/index.html) (use CTRL+click or ⌘+click to open in new tab)
+
